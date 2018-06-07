@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/nearest_theater"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="가까운 영화관 탐색" />
+
+    <Button
+        android:id="@+id/select_theater"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="직접 영화관 선택" />
+
+</LinearLayout>
