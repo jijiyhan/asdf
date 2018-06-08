@@ -12,6 +12,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -90,6 +91,7 @@ public class uLocationBased extends AppCompatActivity implements theater3.OnFrag
         Bundle bundle = new Bundle();
         bundle.putDouble("input1",d1);
         bundle.putDouble("input2",d2);
+
 
         mapfragment.setArguments(bundle);
 
